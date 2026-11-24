@@ -35,12 +35,12 @@ Swagger / future mobile app ──► REST API ┘
 - **Authentication:** JWT bearer tokens for API clients. The website signs in with a cookie set through a short-lived, single-use ticket, because Blazor's live connection can't set cookies itself.
 - **Business rules in the API:** for example, a group always keeps at least one admin while anyone follows it.
 - **Time zones:** every time is stored and served in UTC and shown in each user's local time.
-- **Deployment:** containerized with Docker and deployed to production with Azure SQL.
+- **Deployment:** hosted in production on MonsterASP.NET with a SQL Server database. A Dockerfile is also included for container hosting.
 - **API docs:** every endpoint is documented in Swagger / OpenAPI.
 
 ## Tech stack
 
-C# · .NET 8 · ASP.NET Core · Blazor · MudBlazor · Dapper · SQL Server / Azure SQL · JWT authentication · Swagger · MapLibre GL · SkiaSharp · Docker · xUnit · bUnit
+C# · .NET 8 · ASP.NET Core · Blazor · MudBlazor · Dapper · SQL Server · JWT authentication · Swagger · MapLibre GL · SkiaSharp · Docker · xUnit · bUnit
 
 ## Testing
 
